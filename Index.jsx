@@ -17,14 +17,14 @@ import { getAuth, signInAnonymously, onAuthStateChanged } from "firebase/auth";
 
 // --- ⚙️ CONFIGURATION ZONE (แก้ไขตรงนี้) ---
 // 1. นำค่าที่ได้จาก Firebase Console มาแปะแทนที่ตรงนี้
-const firebaseConfig = {
-  apiKey: "AIzaSyAjLOFhrO-dZWNfMb2ZrEFCii788gBqkWM",
-  authDomain: "itmanagervault.firebaseapp.com",
-  projectId: "itmanagervault",
-  storageBucket: "itmanagervault.firebasestorage.app",
-  messagingSenderId: "422284074512",
-  appId: "1:422284074512:web:8489d9ae70335be9fd7495",
-  measurementId: "G-QBJSJC2RQQ"
+const firebaseConfig ={
+    apiKey: "AIzaSyAVS_Gkv8IORwVDDuKdLGs51ZW6rl5C38Y",
+    authDomain: "it-vault-app-9cb13.firebaseapp.com",
+    projectId: "it-vault-app-9cb13",
+    storageBucket: "it-vault-app-9cb13.firebasestorage.app",
+    messagingSenderId: "19647717282",
+    appId: "1:19647717282:web:c77f9f5aa811c1ffd01cfb"
+
 };
 // 2. รหัสผ่านเข้าแอป (Frontend Gate)
 const APP_PASSWORD = "1234"; 
